@@ -45,7 +45,7 @@ export const useCart = create<CartState>()(
       clear: () => set({ items: [] }),
       setOpen: (open) => set({ open }),
     }),
-    { name: "playmila-cart", partialize: (s) => ({ items: s.items }) },
+    { name: "restaurant-cart", partialize: (s) => ({ items: s.items }) },
   ),
 );
 

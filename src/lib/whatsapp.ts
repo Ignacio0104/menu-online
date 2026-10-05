@@ -21,7 +21,7 @@ export function buildWhatsAppUrl(
   });
 
   const text = [
-    "*Nuevo pedido - Play Mila*",
+    "*Nuevo pedido - Restaurant*",
     "",
     ...lines,
     "",

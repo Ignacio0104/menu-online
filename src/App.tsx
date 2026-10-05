@@ -26,13 +26,11 @@ export default function App() {
   }, []);
 
   useEffect(() => {
-    document
-      .querySelector(`[data-nav="${active}"]`)
-      ?.scrollIntoView({
-        inline: "center",
-        block: "nearest",
-        behavior: "smooth",
-      });
+    document.querySelector(`[data-nav="${active}"]`)?.scrollIntoView({
+      inline: "center",
+      block: "nearest",
+      behavior: "smooth",
+    });
   }, [active]);
 
   return (
@@ -41,7 +39,7 @@ export default function App() {
         <div className="mx-auto flex max-w-6xl items-start justify-between gap-4">
           <div>
             <h1 className="font-display text-5xl leading-none text-brand">
-              Play Mila
+              Restaurant
             </h1>
             <p className="mt-2 max-w-xs text-sm text-muted">
               Elegí lo que se te antoja, deslizá, mirá las fotos y mandá tu
